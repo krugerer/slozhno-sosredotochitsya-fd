@@ -1,0 +1,1 @@
+https://github.com/krugerer/slozhno-sosredotochitsya-fd.git
