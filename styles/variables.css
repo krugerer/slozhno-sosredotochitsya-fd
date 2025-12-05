@@ -1,10 +1,10 @@
 :root {
-  --bg-img: url('../images/cover-image-dark.png');
-  --text-color: #FF0070;
-  --title-decor: #FF0070;
-  --text-color-title: #DB00FF;
+  --bg-img: url("../images/cover-image-dark.png");
+  --text-color: #ff0070;
+  --title-decor: #ff0070;
+  --text-color-title: #db00ff;
   --bg-color: #000028;
   --text-paragr: #000028;
-  --par-color: #F1B2CE;
+  --par-color: #f1b2ce;
   --accent-color: #ff0070;
 }

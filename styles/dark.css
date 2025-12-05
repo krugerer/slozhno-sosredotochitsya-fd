@@ -9,12 +9,35 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-img: url('../images/cover-image-dark.png');
-  --text-color: #FF0070;
-  --title-decor: #FF0070;
-  --text-color-title: #DB00FF;
+  --bg-img: url("../images/cover-image-dark.png");
+  --text-color: #ff0070;
+  --title-decor: #ff0070;
+  --text-color-title: #db00ff;
   --bg-color: #000028;
   --text-paragr: #000028;
-  --par-color: #F1B2CE;
+  --par-color: #f1b2ce;
+  --button_hover: 255, 0, 112; 
   --accent-color: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-img: url("../images/cover-image-dark.png");
+    --text-color: #ff0070;
+    --title-decor: #ff0070;
+    --text-color-title: #db00ff;
+    --bg-color: #000028;
+    --text-paragr: #000028;
+    --par-color: #f1b2ce;
+    --button_hover: 255, 0, 112; 
+    --accent-color: #ff0070;
+  }
+}
+
+.theme-dark .decorative_element {
+  display: inline-block;
+}
+
+.theme-dark .decorative_element::after {
+  display: inline-block;
 }
