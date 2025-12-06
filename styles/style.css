@@ -146,7 +146,8 @@
 .content {
   margin-block: 40px;
   display: grid;
-  grid-template-columns: 355px;
+  grid-template-columns: 1fr;
+  margin-inline: 10px;
   gap: 50px;
   justify-self: center;
 }
@@ -262,7 +263,6 @@
 }
 
 @media (min-width: 768px) {
-
   .header {
     min-height: 1024px;
   }
@@ -390,7 +390,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .header {
     min-height: 768px;
   }
@@ -446,11 +445,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-  }
-
-  .content__concentration .content__card-article {
-    grid-column: initial;
-    grid-row: 2 / span 3;
   }
 
   .content__advice .content__card-article {
